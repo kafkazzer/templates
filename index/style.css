@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap')
+* {
+    padding:0 auto;
+    margin: 0 auto;
+}
+body {
+    color:#111;
+    background:#f0f0f0;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+.banner {
+    display:flex;
+    height:100vh;
+    flex-direction:row;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+.banner .item {
+    flex:1 2 auto;
+}
+.banner .item h2 {
+    font-family: "Unbounded", sans-serif;
+    font-size:130px
+}
+.banner .item p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size:80px;
+}
+.container {
+    margin-left:5vw;
+    margin-right:5vw;
+    padding:30px;
+    display:flex;
+    flex-direction:column;
+}
+.container h2 {
+    font-family: "Russo One", sans-serif;
+    font-size:60px;
+}
+.container p {
+    font-size:30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.container .row {
+    display:flex;
+    flex-flow: row wrap;
+    flex:1 auto;
+    justify-content: space-between;
+}
+.row .item {
+    flex-basis: auto;
+    width:400px;
+
+    display:flex;
+    flex-direction:column;
+
+    margin:15px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    word-wrap: break-word;
+}
+.fake-img {
+    background:grey;
+    width:400px;
+    height:400px;
+    border-radius:15px;
+}
+.btn {
+    background:white;
+    padding:15px;
+    border:3px solid black;
+    font-family: "Russo One", sans-serif;
+    font-size:20px;
+}
+.basement {
+    background:#111;
+    color:#f0f0f0;
+    padding:30px;
+    margin:0px
+}
+.basement h2 {
+    font-family: "Russo One", sans-serif;
+    font-size:40px;
+}
+.basement p {
+    font-size:20px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
